@@ -1,27 +1,11 @@
-# GpoiSitoWeb
+# GPOI - sito web sulla crittografia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac leo sit amet enim luctus ultrices nec a libero. Nulla facilisi. Donec porttitor auctor rutrum. Integer a ex nisi. Pellentesque vulputate aliquet nisl, nec ornare augue eleifend at. Aliquam vel velit ac dolor scelerisque suscipit dapibus at eros. Vivamus congue, tortor non imperdiet porta, ipsum quam fringilla odio, quis iaculis nisl massa at ligula. Sed porttitor metus at lectus volutpat, ac fringilla risus fringilla. Morbi quis malesuada nisl, sit amet iaculis neque. Cras ut interdum urna, in consequat nibh. Ut aliquet massa massa, sed suscipit odio accumsan ac. Nulla euismod gravida dolor vel consectetur. Etiam pellentesque luctus tellus, in tempor eros tincidunt at. Donec mattis varius ipsum rutrum bibendum.
 
-## Development server
+Phasellus eu laoreet turpis. Etiam maximus ac nisi ac malesuada. In sollicitudin odio eget velit iaculis lacinia. Integer in facilisis nunc, in condimentum dolor. In sit amet magna nec enim malesuada tempor ut luctus risus. Nunc pulvinar feugiat dui, sodales molestie risus maximus non. Praesent placerat risus urna, ac lacinia arcu aliquet a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin vulputate elementum neque at aliquet. Cras pellentesque sodales mauris sit amet viverra. Phasellus at purus eu eros ullamcorper fermentum in at sapien. Phasellus eu dapibus nisi, at iaculis nisi. Curabitur ultricies, leo vel faucibus pharetra, nibh metus tincidunt ante, nec consequat lectus purus ac sapien. Morbi sit amet turpis turpis.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Nullam ante lacus, sodales ut metus at, aliquam vestibulum dolor. Sed fringilla tincidunt scelerisque. In id mi venenatis, tincidunt dui a, congue massa. Nam vitae turpis non augue sollicitudin gravida. In efficitur nisl et neque dictum finibus. Maecenas sed urna in lectus finibus congue. Nunc maximus mollis nisl, at malesuada nisi consequat vitae. Nulla ultrices lorem in urna accumsan tempor. Cras gravida varius lectus et feugiat. Nam velit ex, sollicitudin a accumsan vitae, tincidunt ut nisl.
 
-## Code scaffolding
+Proin placerat dui orci, vel lacinia orci porttitor nec. Integer velit eros, tincidunt vel lacinia nec, finibus a tellus. Nulla ut elementum risus, ac interdum ligula. Suspendisse potenti. Cras laoreet nibh sem. Nullam non leo pretium ligula efficitur commodo nec sed ligula. Nam sodales gravida tortor, vel dapibus ante tempor id. Cras lectus erat, consectetur bibendum sem facilisis, pellentesque gravida diam.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Suspendisse hendrerit tincidunt justo, non fermentum magna aliquet quis. Sed nec ligula velit. Donec magna lacus, rhoncus feugiat eros quis, pharetra pretium velit. Mauris orci nibh, posuere tincidunt imperdiet nec, lobortis eu nunc. Ut maximus tristique metus, non cursus metus faucibus in. Nunc id neque dictum, tincidunt nulla molestie, bibendum quam. Mauris eget ex sit amet eros venenatis scelerisque. Aliquam vitae arcu ac ipsum volutpat faucibus ac non erat. Suspendisse cursus enim ac tortor venenatis pulvinar. Donec vel lacus vitae quam aliquet laoreet. Maecenas id tellus at erat rutrum aliquam. Ut a suscipit massa. Fusce id metus ut nisl pulvinar sagittis. Morbi nec laoreet dolor. Suspendisse id blandit sem, eget mollis ipsum. 
