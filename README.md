@@ -1,4 +1,4 @@
-# 💸 GPOI - sito web sulla crittografia
+# 💸 GPOI - sito web sulle crittovalute
 
 ## 💡 Finalità e obiettivi
 
