@@ -1,11 +1,15 @@
-# GPOI - sito web sulla crittografia
+# 💸 GPOI - sito web sulla crittografia
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac leo sit amet enim luctus ultrices nec a libero. Nulla facilisi. Donec porttitor auctor rutrum. Integer a ex nisi. Pellentesque vulputate aliquet nisl, nec ornare augue eleifend at. Aliquam vel velit ac dolor scelerisque suscipit dapibus at eros. Vivamus congue, tortor non imperdiet porta, ipsum quam fringilla odio, quis iaculis nisl massa at ligula. Sed porttitor metus at lectus volutpat, ac fringilla risus fringilla. Morbi quis malesuada nisl, sit amet iaculis neque. Cras ut interdum urna, in consequat nibh. Ut aliquet massa massa, sed suscipit odio accumsan ac. Nulla euismod gravida dolor vel consectetur. Etiam pellentesque luctus tellus, in tempor eros tincidunt at. Donec mattis varius ipsum rutrum bibendum.
+## 💡 Finalità e obiettivi
 
-Phasellus eu laoreet turpis. Etiam maximus ac nisi ac malesuada. In sollicitudin odio eget velit iaculis lacinia. Integer in facilisis nunc, in condimentum dolor. In sit amet magna nec enim malesuada tempor ut luctus risus. Nunc pulvinar feugiat dui, sodales molestie risus maximus non. Praesent placerat risus urna, ac lacinia arcu aliquet a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin vulputate elementum neque at aliquet. Cras pellentesque sodales mauris sit amet viverra. Phasellus at purus eu eros ullamcorper fermentum in at sapien. Phasellus eu dapibus nisi, at iaculis nisi. Curabitur ultricies, leo vel faucibus pharetra, nibh metus tincidunt ante, nec consequat lectus purus ac sapien. Morbi sit amet turpis turpis.
+Il sito ha lo scopo di spiegare il mercato delle crittovalute, illustrare il loro andamento in borsa, e informare i lettori delle novità a riguardo.
 
-Nullam ante lacus, sodales ut metus at, aliquam vestibulum dolor. Sed fringilla tincidunt scelerisque. In id mi venenatis, tincidunt dui a, congue massa. Nam vitae turpis non augue sollicitudin gravida. In efficitur nisl et neque dictum finibus. Maecenas sed urna in lectus finibus congue. Nunc maximus mollis nisl, at malesuada nisi consequat vitae. Nulla ultrices lorem in urna accumsan tempor. Cras gravida varius lectus et feugiat. Nam velit ex, sollicitudin a accumsan vitae, tincidunt ut nisl.
+## 🤼 Destinatari
 
-Proin placerat dui orci, vel lacinia orci porttitor nec. Integer velit eros, tincidunt vel lacinia nec, finibus a tellus. Nulla ut elementum risus, ac interdum ligula. Suspendisse potenti. Cras laoreet nibh sem. Nullam non leo pretium ligula efficitur commodo nec sed ligula. Nam sodales gravida tortor, vel dapibus ante tempor id. Cras lectus erat, consectetur bibendum sem facilisis, pellentesque gravida diam.
+Tutti i curiosi e appassionati al mondo delle crittovalute.
 
-Suspendisse hendrerit tincidunt justo, non fermentum magna aliquet quis. Sed nec ligula velit. Donec magna lacus, rhoncus feugiat eros quis, pharetra pretium velit. Mauris orci nibh, posuere tincidunt imperdiet nec, lobortis eu nunc. Ut maximus tristique metus, non cursus metus faucibus in. Nunc id neque dictum, tincidunt nulla molestie, bibendum quam. Mauris eget ex sit amet eros venenatis scelerisque. Aliquam vitae arcu ac ipsum volutpat faucibus ac non erat. Suspendisse cursus enim ac tortor venenatis pulvinar. Donec vel lacus vitae quam aliquet laoreet. Maecenas id tellus at erat rutrum aliquam. Ut a suscipit massa. Fusce id metus ut nisl pulvinar sagittis. Morbi nec laoreet dolor. Suspendisse id blandit sem, eget mollis ipsum. 
+## 🧱 Struttura del sito web
+
+- 📈 Homepage,
+- 📰 News,
+- 📒 Info & About
