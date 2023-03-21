@@ -7,6 +7,7 @@ import { NewsPageComponent } from './pages/news/news.component';
 
 import { AppRoutingModule } from './routing/routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
