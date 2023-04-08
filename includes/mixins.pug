@@ -13,11 +13,10 @@ mixin makeCard(image, name, content, link)
 
 mixin makeNavbar(pages)
     div.container
-        .box.m-3
-            div.tabs.is-centered
-                ul 
-                    each page in pages
+            div.tabs.is-centered.is-toggle.is-toggle-rounded.is-success
+                ul: each page in pages
                             if page.current == true
                                 li.is-active: a(href= page.link)= page.name
                             else 
                                 li: a(href= page.link)= page.name
+

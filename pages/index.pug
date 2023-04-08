@@ -3,21 +3,27 @@ extends ../template
 
 block body
     div.hero.is-success
-        +makeNavbar([{
-                name: "Home",
-                link: "/index.html",
-                current: true
-            }, {
-                name: "News", 
-                link: "/news.html",
-                current: false
-            }, {
-                name: "About",
-                link: "/about.html",
-                current: false }])
         .hero-body
-            h1.title Criptovalute 
-            h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+            .columns.is-vcentered
+                .column 
+                    h1.title Criptovalute 
+                    h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+                .column 
+                        +makeNavbar([{
+                        name: "Home",
+                        link: "/index.html",
+                        current: true
+                    }, {
+                        name: "News", 
+                        link: "/news.html",
+                        current: false
+                    }, {
+                        name: "About",
+                        link: "/about.html",
+                        current: false }])
+                .column 
+
+
     .section 
         .container 
             .is-centered
