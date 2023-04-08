@@ -3,7 +3,18 @@ extends ../template
 
 block body
     div.hero.is-success
-        include ../includes/navbar
+        +makeNavbar([{
+                name: "Home",
+                link: "/index.html",
+                current: true
+            }, {
+                name: "News", 
+                link: "/news.html",
+                current: false
+            }, {
+                name: "About",
+                link: "/about.html",
+                current: false }])
         .hero-body
             h1.title Criptovalute 
             h1.subtitle Un sito web per informarti dell'economia delle criptovalute

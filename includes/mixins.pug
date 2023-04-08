@@ -11,6 +11,13 @@ mixin makeCard(image, name, content, link)
                 p= content
                 a.button.is-success.is-light(href= link)= "Visita il sito di " + name
 
-mixin makeParagraph(header, content)
-    h1.title= header
-    p.block= content
+mixin makeNavbar(pages)
+    div.container
+        .box.m-3
+            div.tabs.is-centered
+                ul 
+                    each page in pages
+                            if page.current == true
+                                li.is-active: a(href= page.link)= page.name
+                            else 
+                                li: a(href= page.link)= page.name
