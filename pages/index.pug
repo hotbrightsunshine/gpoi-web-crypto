@@ -2,5 +2,53 @@ extends ../template
 
 
 block body
-    p Ciao come state?
-    p Caiooo
+    div.hero.is-success
+        include ../includes/navbar
+        .hero-body
+            h1.title Criptovalute 
+            h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+    .section 
+        .container 
+            .is-centered
+                .box 
+                    p.has-text-centered Inserire qui il grafico
+
+    .section 
+        .container
+            h1.title Per chi ancora non ne sa niente
+            .columns 
+                .column 
+                    h1.subtitle Cosa sono le criptovalute?
+                    p.block Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsa at earum hic blanditiis pariatur iusto corrupti tenetur libero. Blanditiis hic eligendi animi perferendis ut quam. Incidunt nihil aperiam distinctio.
+                .column 
+                    h1.subtitle Da chi sono usate? 
+                    p.block Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsa at earum hic blanditiis pariatur iusto corrupti tenetur libero. Blanditiis hic eligendi animi perferendis ut quam. Incidunt nihil aperiam distinctio.
+                .column 
+                    h1.subtitle Se le uso, sono un criminale?
+                    p.block Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsa at earum hic blanditiis pariatur iusto corrupti tenetur libero. Blanditiis hic eligendi animi perferendis ut quam. Incidunt nihil aperiam distinctio.
+
+    .section
+        .container
+            h1.title Apri il tuo portafoglio adesso!
+            h1.subtitle Scegli la tua criptovaluta preferita tra quelle che ti proponiamo
+            .columns.is-vcentered
+                .column 
+                    +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
+                        "Bitcoin", 
+                        "Scopri Bitcoin, la moneta più conosciuta e, forse, anche la più antica!",
+                        "https://bitcoin.org/it/")
+                .column
+                    +makeCard("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png", 
+                        "Etherium", 
+                        "Etherium è una moneta moderna e nuova.",
+                        "https://ethereum.org/it/")
+                .column
+                    +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
+                        "Bitcoin", 
+                        "Scopri Bitcoin, la moneta più conosciuta e, forse, anche la più antica!",
+                        "https://bitcoin.org/it/")
+                .column
+                    +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
+                        "Bitcoin", 
+                        "Scopri Bitcoin, la moneta più conosciuta e, forse, anche la più antica!",
+                        "https://bitcoin.org/it/")

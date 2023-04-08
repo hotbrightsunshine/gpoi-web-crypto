@@ -1,0 +1,16 @@
+mixin makeCard(image, name, content, link)
+    div.card
+        div.card-image
+            figure.image.is-1by1
+                img(src= image)
+        div.card-content
+            div.media
+                div.media-content
+                    h1.title.is-4= name
+            div.content 
+                p= content
+                a.button.is-success.is-light(href= link)= "Visita il sito di " + name
+
+mixin makeParagraph(header, content)
+    h1.title= header
+    p.block= content
