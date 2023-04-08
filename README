@@ -1,0 +1,3 @@
+Some useful information:
+- Links are not working, as they are supposed to work on a finished product
+- `mixins.pug` is always imported in any page that inherit `template.pug`

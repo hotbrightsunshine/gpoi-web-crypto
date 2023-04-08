@@ -1,29 +1,7 @@
 extends ../template
 
-
 block body
-    div.hero.is-success
-        .hero-body
-            .columns.is-vcentered
-                .column 
-                    h1.title Criptovalute 
-                    h1.subtitle Un sito web per informarti dell'economia delle criptovalute
-                .column 
-                        +makeNavbar([{
-                        name: "Home",
-                        link: "/index.html",
-                        current: true
-                    }, {
-                        name: "News", 
-                        link: "/news.html",
-                        current: false
-                    }, {
-                        name: "About",
-                        link: "/about.html",
-                        current: false }])
-                .column 
-
-
+    +makeHeaderHome()
     .section 
         .container 
             .is-centered
@@ -62,10 +40,10 @@ block body
                 .column
                     +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
                         "Bitcoin", 
-                        "Scopri Bitcoin, la moneta più conosciuta e, forse, anche la più antica!",
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique ipsum accusamus veniam totam, exercitationem corrupti voluptate, hic sequi quos repellat iure ratione amet in dolores quas doloremque praesentium impedit.",
                         "https://bitcoin.org/it/")
                 .column
                     +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
                         "Bitcoin", 
-                        "Scopri Bitcoin, la moneta più conosciuta e, forse, anche la più antica!",
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam cum debitis labore dolores voluptate saepe odit recusandae! Sunt quod adipisci repudiandae! Debitis sit minima illum iusto eius illo ipsa?",
                         "https://bitcoin.org/it/")

@@ -11,6 +11,17 @@ mixin makeCard(image, name, content, link)
                 p= content
                 a.button.is-success.is-light(href= link)= "Visita il sito di " + name
 
+mixin makeNews(image, title, content, link)
+    .box: .columns
+        .column.is-one-quarter
+            figure.image.is-16by9 
+                img(src= image)
+        .column
+            .title.is-5= title
+            p.block= content
+            a.button.is-fullwidth.is-success.is-light(href= link)= "Leggi la notizia"
+
+
 mixin makeNavbar(pages)
     div.container
             div.tabs.is-centered.is-toggle.is-toggle-rounded.is-success
@@ -20,3 +31,70 @@ mixin makeNavbar(pages)
                             else 
                                 li: a(href= page.link)= page.name
 
+mixin makeHeaderHome() 
+    div.hero.is-success
+        .hero-body
+            .columns.is-vcentered
+                .column 
+                    h1.title Criptovalute 
+                    h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+                .column 
+                        +makeNavbar([{
+                        name: "Home",
+                        link: "/index.html",
+                        current: true
+                    }, {
+                        name: "News", 
+                        link: "/news.html",
+                        current: false
+                    }, {
+                        name: "About",
+                        link: "/about.html",
+                        current: false }])
+                .column 
+
+mixin makeHeaderNews() 
+    div.hero.is-success
+        .hero-body
+            .columns.is-vcentered
+                .column 
+                    h1.title Criptovalute 
+                    h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+                .column 
+                        +makeNavbar([{
+                        name: "Home",
+                        link: "/index.html",
+                        current: false
+                    }, {
+                        name: "News", 
+                        link: "/news.html",
+                        current: true
+                    }, {
+                        name: "About",
+                        link: "/about.html",
+                        current: false }])
+                .column.has-text-right
+                    h1.title News
+                    h1.subtitle Ricevi le ultime notizie per sapere come investire!
+
+mixin makeHeaderAbout() 
+    div.hero.is-success
+        .hero-body
+            .columns.is-vcentered
+                .column 
+                    h1.title Criptovalute 
+                    h1.subtitle Un sito web per informarti dell'economia delle criptovalute
+                .column 
+                        +makeNavbar([{
+                        name: "Home",
+                        link: "/index.html",
+                        current: false
+                    }, {
+                        name: "News", 
+                        link: "/news.html",
+                        current: false
+                    }, {
+                        name: "About",
+                        link: "/about.html",
+                        current: true }])
+                .column 
