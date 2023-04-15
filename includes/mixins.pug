@@ -21,6 +21,10 @@ mixin makeNews(image, title, content, link)
             p.block= content
             a.button.is-fullwidth.is-success.is-light(href= link)= "Leggi la notizia"
 
+mixin makeImg(image)
+    .box.p-0
+        img(src= image)
+
 
 mixin makeNavbar(pages)
     div.container
@@ -97,4 +101,6 @@ mixin makeHeaderAbout()
                         name: "About",
                         link: "/about.html",
                         current: true }])
-                .column 
+                .column.has-text-right
+                    h1.title About
+                    h1.subtitle Se vuoi saperne di più sulle criptovalute, questa pagina ti darà le informazioni che cerchi
