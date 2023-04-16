@@ -6,7 +6,7 @@ block body
         .container 
             .is-centered
                 .box 
-                    p.has-text-centered Inserire qui il grafico
+                    canvas#my-chart
 
     .section 
         .container
@@ -47,12 +47,15 @@ block body
                         "Etherium è una moneta moderna e nuova.",
                         "https://ethereum.org/it/")
                 .column
-                    +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
-                        "Bitcoin", 
-                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique ipsum accusamus veniam totam, exercitationem corrupti voluptate, hic sequi quos repellat iure ratione amet in dolores quas doloremque praesentium impedit.",
-                        "https://bitcoin.org/it/")
+                    +makeCard("https://1.bp.blogspot.com/-_GEdIn8WlPs/YJtUwh2xYiI/AAAAAAAAHzs/G7afb0-w0ZAtczANwPSU3Lapd6RS__NgQCLcBGAsYHQ/s0/doge.png", 
+                        "Dogecoin", 
+                        "Dogecoin è la moneta di Elon Musk; per poco tempo, anche Twitter ha utilizzato questo.",
+                        "https://dogecoin.com/")
                 .column
-                    +makeCard("https://logospng.org/download/bitcoin/logo-bitcoin-4096.png", 
-                        "Bitcoin", 
-                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam cum debitis labore dolores voluptate saepe odit recusandae! Sunt quod adipisci repudiandae! Debitis sit minima illum iusto eius illo ipsa?",
-                        "https://bitcoin.org/it/")
+                    +makeCard("https://cdn.freebiesupply.com/logos/large/2x/tether-logo-png-transparent.png", 
+                        "Tether", 
+                        "Tether unisce il potere della criptovaluta con quello della stabile carta moneta.",
+                        "https://tether.to/en/")
+
+include ./graph
+
