@@ -1,0 +1,28 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
+          datasets: [{
+            label: 'Ethereum (ETH)',
+            data: [2601, 3017, 1620, 1801, 1870, 2169, 1952, 1640, 1902, 1668, 1569, 1820],
+            borderWidth: 2,
+            borderColor: 'hsl(171, 100%, 41%)',
+            tension: 0.3
+          }, {
+            label: 'Bitcoin (BTC)',
+            data: [29582, 24849, 24309, 29765, 30579, 35472, 33214, 27900, 29185, 29014, 25370, 29429],
+            borderWidth: 2,
+            borderColor: 'hsl(217, 71%, 53%)',
+            tension: 0.3
+          }, {
+            label: 'Binance Coin (BNB)',
+            data: [4, 5, 34, 9, 9, 7, 5, 4],
+            borderWidth: 2,
+            borderColor: 'hsl(220, 81%, 23%)',
+            tension: 0.3
+          }]}});
+    </script>
